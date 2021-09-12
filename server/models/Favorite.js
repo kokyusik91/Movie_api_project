@@ -6,6 +6,7 @@ const favoriteSchema = mongoose.Schema({
         type : Schema.Types.ObjectId,
         ref : 'User'
     },
+    // opbjectId로 movieId, movieTitle 등에 접근 할 수 있다.
     movieId : {
         type : String
     },

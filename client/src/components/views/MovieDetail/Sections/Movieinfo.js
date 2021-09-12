@@ -4,6 +4,7 @@ import { Descriptions, Badge } from 'antd';
 function MovieInfo(props) {
 
 let  {movie}  = props;
+// props객체를 movie라는 객체에다가 넣어줘서 사용하자.
 
 return (
     

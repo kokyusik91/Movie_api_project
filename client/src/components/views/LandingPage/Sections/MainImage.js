@@ -1,6 +1,8 @@
 import React from 'react';
 function MainImage(props) {
+    console.log(props)
 return (
+    // LandingPage에서 보내준 props들을 각각 원하는 곳에 props.넘긴값 으로 넣어준다.
 <div style={{
     background: `linear-gradient(to bottom, rgba(0,0,0,0)39%,
     rgba(0,0,0,0)41%,
